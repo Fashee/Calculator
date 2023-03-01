@@ -13,6 +13,7 @@ const App = () => {
     setCalcText(eval(resultText));
   };
   const onOperationClick = text => {
+    console.log('Hi')
     let operation = ['DEL', 'AC', '+', '-', '*', '/'];
     if (text == 'AC') {
       setResultText('');
